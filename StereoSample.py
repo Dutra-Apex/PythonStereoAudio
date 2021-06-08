@@ -4,11 +4,16 @@ import struct
 
 freq = 220.0
 freq2 = 440.0
-data_size = 10000
-fname = "WaveTest2.wav"
-frate = 21025.0  # framerate as a float
-amp = 44000.0     # multiplier for amplitude
 
+data_size = 10000
+fname = "TestSample.wav"
+
+#framerate of the sound
+frate = 21025.0  
+
+amp = 44000.0   
+
+#Creates a
 sine_list_x = []
 for x in range(data_size):
     sine_list_x.append(math.sin(2*math.pi*freq*(x/frate)))
