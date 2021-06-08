@@ -13,7 +13,7 @@ frate = 21025.0
 
 amp = 44000.0   
 
-#Creates a
+#Alternates right side between freq and freq2
 sine_list_x = []
 for x in range(data_size):
     sine_list_x.append(math.sin(2*math.pi*freq*(x/frate)))
@@ -21,6 +21,7 @@ for x in range(data_size):
     sine_list_x.append(math.sin(2*math.pi*freq2*(x/frate)))
 
 
+#Alternates left side between freq and freq2
 sine_list_y = []
 for x in range(data_size):
     sine_list_y.append(math.sin(2*math.pi*freq2*(x/frate)))
