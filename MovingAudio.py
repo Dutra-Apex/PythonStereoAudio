@@ -18,6 +18,7 @@ def sound_wave(freq, frate, size):
 '''
     return wave
 
+# Frequency of the channels
 freq = 320.0
 freq2 = 440.0
 data_size = 200000
