@@ -63,7 +63,7 @@ for s, t in zip(rsound, lsound):
     #ampl += incr
 '''
 
-
+#Increments the left side amplitude for the first third of the sound
 for s, t in zip(rsound[:(len(rsound)//3)], lsound[:(len(lsound)//3)]):
     # write the audio frames to file
     wav_file.writeframes(struct.pack('h', int(s * ampr / 2)))
