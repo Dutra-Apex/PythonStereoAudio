@@ -24,10 +24,13 @@ freq2 = 440.0
 
 # Number of values in each channel
 data_size = 200000
-fname = "WaveTest6.wav"
+
+# Framerate (how fast it goes through data_size)
 frate = 31025.0  # framerate as a float
 ampr = 5000.0     # multiplier for amplitude
 ampl = 30000.0
+
+fname = "WaveTest.wav"
 
 nchannels = 2
 sampwidth = 2
