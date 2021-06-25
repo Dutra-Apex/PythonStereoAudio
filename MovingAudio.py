@@ -63,6 +63,9 @@ for s, t in zip(rsound, lsound):
     #ampl += incr
 '''
 
+#Creates the feeling of a moving sound by manipulating the amplitude of the 
+#left and right channels through the duration of the file
+
 #Increments the left side amplitude for the first third of the sound
 for s, t in zip(rsound[:(len(rsound)//3)], lsound[:(len(lsound)//3)]):
     # write the audio frames to file
