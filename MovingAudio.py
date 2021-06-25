@@ -2,6 +2,7 @@ import math
 import wave
 import struct
 
+#Increments the frequency of the sound every milisecond
 inc = .00002
 
 def sound_wave(freq, frate, size):
