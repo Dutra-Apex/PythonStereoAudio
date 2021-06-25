@@ -21,6 +21,8 @@ def sound_wave(freq, frate, size):
 # Frequency of the channels
 freq = 320.0
 freq2 = 440.0
+
+# Number of values in each channel
 data_size = 200000
 fname = "WaveTest6.wav"
 frate = 31025.0  # framerate as a float
