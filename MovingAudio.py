@@ -18,16 +18,18 @@ def sound_wave(freq, frate, size):
 '''
     return wave
 
-# Frequency of the channels
+#Frequency of the channels
 freq = 320.0
 freq2 = 440.0
 
-# Number of values in each channel
+#Number of values in each channel
 data_size = 200000
 
-# Framerate (how fast it goes through data_size)
-frate = 31025.0  # framerate as a float
-ampr = 5000.0     # multiplier for amplitude
+#Framerate (how fast it goes through data_size)
+frate = 31025.0 
+
+#Amplitude (volume)
+ampr = 5000.0     
 ampl = 30000.0
 
 fname = "WaveTest.wav"
