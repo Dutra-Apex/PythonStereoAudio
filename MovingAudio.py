@@ -78,7 +78,7 @@ for s, t in zip(rsound[(len(rsound)//3):((len(rsound)//3)*2)], lsound[(len(lsoun
     ampr += incr
     ampl -= incl
 
-#Decrements the right 
+#Decrements the right amplitude for the last third of the sound
 for s, t in zip(rsound[((len(rsound)//3)*2):], lsound[((len(lsound)//3)*2):]):
     # write the audio frames to file
     wav_file.writeframes(struct.pack('h', int(s * ampr / 2)))
