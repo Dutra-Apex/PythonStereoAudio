@@ -38,6 +38,7 @@ wav_file = wave.open(fname, "w")
 wav_file.setparams((nchannels, sampwidth, framerate, nframes,
     comptype, compname))
 
+# Creates the soundwave for both left and right channels
 rsound = sound_wave(freq, frate, data_size)
 lsound = sound_wave(freq2, frate, data_size)
 
