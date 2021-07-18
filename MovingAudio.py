@@ -55,13 +55,13 @@ print(len(rsound))
 incr = 0.1
 incl = 0.52
 
-'''
+
 for s, t in zip(rsound, lsound):
     # write the audio frames to file
     wav_file.writeframes(struct.pack('h', int(s * ampl / 2)))
     wav_file.writeframes(struct.pack('h', int(t * ampl / 2)))
     #ampl += incr
-'''
+
 
 #Creates the feeling of a moving sound by manipulating the amplitude of the 
 #left and right channels through the duration of the file
