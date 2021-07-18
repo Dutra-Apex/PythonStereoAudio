@@ -60,7 +60,7 @@ for s, t in zip(rsound, lsound):
     # write the audio frames to file
     wav_file.writeframes(struct.pack('h', int(s * ampl / 2)))
     wav_file.writeframes(struct.pack('h', int(t * ampl / 2)))
-    #ampl += incr
+    ampl += incr
 
 
 #Creates the feeling of a moving sound by manipulating the amplitude of the 
