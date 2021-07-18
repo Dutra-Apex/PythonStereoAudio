@@ -10,7 +10,7 @@ def sound_wave(freq, frate, size):
     wave = []
     for x in range(size):
         wave.append(math.sin(2*math.pi*freq*(x/frate)))
-        #freq = freq + inc
+        freq = freq + inc
     '''
     for x in range(size//2):
         wave.append(math.sin(2*math.pi*freq*(x/frate)))
