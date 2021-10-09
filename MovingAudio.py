@@ -55,7 +55,6 @@ print(len(rsound))
 incr = 0.1
 incl = 0.52
 
-
 for s, t in zip(rsound, lsound):
     # write the audio frames to file
     wav_file.writeframes(struct.pack('h', int(s * ampl / 2)))
